@@ -1,11 +1,11 @@
-# 🧱 Mi primer archivo en formato .html
+# Mi primer archivo en formato .html
 
 Vamos a crear un archivo **HTML** para abrir desde nuestro navegador local.  
 No esperes mucho de aquí, pues va a ser algo muy sencillo.
 
 ---
 
-## 🗂️ Creación del archivo
+## Creación del archivo
 
 Para empezar, necesitamos crear un archivo en formato `.html`.  
 Esto es tan sencillo como ir a nuestro IDE y, dentro del directorio donde estemos trabajando, crear un nuevo archivo:
@@ -16,7 +16,7 @@ Esto es tan sencillo como ir a nuestro IDE y, dentro del directorio donde estemo
 
 ---
 
-## 💻 Estructura básica de un documento HTML
+## Estructura básica de un documento HTML
 
 Una vez tengamos el archivo creado, empezamos a escribir en él.  
 El contenido será el siguiente:
@@ -35,7 +35,7 @@ El contenido será el siguiente:
 </html>
 ```
 
-## 🧩 Explicación de las partes
+## Explicación de las partes
 
 ```markdown
 
