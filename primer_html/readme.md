@@ -34,7 +34,7 @@ El contenido será el siguiente:
         <img src="petrercastillo.jpg" width="240" height="135" alt="Castillo de Petrer">
         <h2>Subtítulo 2</h2>
         <p>Segundo párrafo</p>
-        <a href="hola.html">Pincha aquí</a>
+        <a href="hola.html">NO CLICKES AQUÍ!!!</a>
         <h3>Esto es una tabla:</h3>
         <table>
             <tr>
