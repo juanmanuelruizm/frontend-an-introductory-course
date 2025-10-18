@@ -23,15 +23,34 @@ El contenido será el siguiente:
 
 ```html
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Mi primera página HTML</title>
-  </head>
-  <body>
-    <h1>Hola Mundo</h1>
-    <h2>Mi primera página web</h2>
-    <p>Este es un ejemplo sencillo de HTML.</p>
-  </body>
+<html> 
+    <head>      
+        <title> Mi primer documento html </title>
+    </head>
+    <body>  
+        <h1>Título</h1>
+        <h2>Subtítulo 1</h2>
+        <p>Petrer</p>
+        <img src="petrercastillo.jpg" width="240" height="135" alt="Castillo de Petrer">
+        <h2>Subtítulo 2</h2>
+        <p>Segundo párrafo</p>
+        <a href="hola.html">Pincha aquí</a>
+        <h3>Esto es una tabla:</h3>
+        <table>
+            <tr>
+                <th>cabecera 1</th>
+                <th>cabecera 2</th>
+            </tr>
+            <tr>
+                <td>hola</td>
+                <td>adiós</td>
+            </tr>
+            <tr>
+                <td>adiós</td>
+                <td>hola</td>
+            </tr>
+        </table>
+    </body>
 </html>
 ```
 
@@ -43,7 +62,8 @@ El contenido será el siguiente:
 
 - <html> ... </html>: Marca el inicio y el final del contenido HTML. 
 - <head> ... </head>: Contiene información que no se muestra directamente en el navegador, como: El título de la pestaña (definido con <title>). Enlaces a hojas de estilo (.css) u otros metadatos. 
-- <body> ... </body>: Contiene todo el contenido que sí se mostrará en la página, como: Títulos principales (<h1>), Subtítulos (<h2>), Párrafos (<p>).
+- <body> ... </body>: Contiene todo el contenido que sí se mostrará en la página, como: Títulos principales (<h1>), Subtítulos (<h2>), Párrafos (<p>), Imágenes (<img>).
+- <table> ... </table>: Para crear tablas: <tr> para crear filas, <th> para crear el nombre de las columnas, etc.
 
 ```
 
