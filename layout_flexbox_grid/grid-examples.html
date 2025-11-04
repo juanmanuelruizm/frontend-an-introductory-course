@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplos de CSS Grid</title>
+    <link rel="stylesheet" href="grid-examples.css">
+</head>
+<body>
+    <h1>Ejemplos de CSS Grid</h1>
+
+    <!-- Ejemplo 1: Grid básico -->
+    <section class="ejemplo">
+        <h2>1. Grid básico (3 columnas)</h2>
+        <div class="grid-basic">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+        </div>
+    </section>
+
+    <!-- Ejemplo 2: Grid con fracciones -->
+    <section class="ejemplo">
+        <h2>2. Grid con fracciones (1fr 2fr 1fr)</h2>
+        <div class="grid-fractions">
+            <div class="box">1fr</div>
+            <div class="box">2fr</div>
+            <div class="box">1fr</div>
+        </div>
+    </section>
+
+    <!-- Ejemplo 3: Layout de página -->
+    <section class="ejemplo">
+        <h2>3. Layout de página completo</h2>
+        <div class="grid-layout">
+            <header class="header">Header</header>
+            <aside class="sidebar">Sidebar</aside>
+            <main class="main">Contenido Principal</main>
+            <footer class="footer">Footer</footer>
+        </div>
+    </section>
+
+    <!-- Ejemplo 4: Grid con áreas nombradas -->
+    <section class="ejemplo">
+        <h2>4. Grid con áreas nombradas</h2>
+        <div class="grid-areas">
+            <div class="area-header">Header</div>
+            <div class="area-sidebar">Sidebar</div>
+            <div class="area-main">Main</div>
+            <div class="area-aside">Aside</div>
+            <div class="area-footer">Footer</div>
+        </div>
+    </section>
+
+    <!-- Ejemplo 5: Galería responsive -->
+    <section class="ejemplo">
+        <h2>5. Galería responsive (auto-fill)</h2>
+        <div class="grid-gallery">
+            <div class="box">Foto 1</div>
+            <div class="box">Foto 2</div>
+            <div class="box">Foto 3</div>
+            <div class="box">Foto 4</div>
+            <div class="box">Foto 5</div>
+            <div class="box">Foto 6</div>
+            <div class="box">Foto 7</div>
+            <div class="box">Foto 8</div>
+        </div>
+    </section>
+
+    <!-- Ejemplo 6: Items que ocupan múltiples celdas -->
+    <section class="ejemplo">
+        <h2>6. Items con span (ocupan múltiples celdas)</h2>
+        <div class="grid-span">
+            <div class="box span-2">Span 2 columnas</div>
+            <div class="box">Normal</div>
+            <div class="box">Normal</div>
+            <div class="box tall">2 filas</div>
+            <div class="box">Normal</div>
+        </div>
+    </section>
+
+    <!-- Ejemplo 7: Dashboard -->
+    <section class="ejemplo">
+        <h2>7. Dashboard (combinando técnicas)</h2>
+        <div class="dashboard">
+            <div class="dash-header">Dashboard Header</div>
+            <div class="dash-sidebar">Menu</div>
+            <div class="dash-stats">Estadísticas</div>
+            <div class="dash-chart">Gráfico</div>
+            <div class="dash-table">Tabla de Datos</div>
+        </div>
+    </section>
+</body>
+</html>
