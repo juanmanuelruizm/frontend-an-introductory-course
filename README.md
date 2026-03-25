@@ -1,5 +1,9 @@
 # Frontend: An Introductory Course
 
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat)
+
 Repositorio educativo sobre desarrollo web frontend, desde los conceptos más básicos hasta técnicas avanzadas.
 
 Este proyecto documenta el aprendizaje progresivo de las tecnologías fundamentales del desarrollo web: HTML, CSS, y los conceptos necesarios para construir sitios web modernos y profesionales.
@@ -67,10 +71,16 @@ Los siguientes temas se irán añadiendo progresivamente:
 
 ## Cómo Usar Este Repositorio
 
-1. **Navega** por los módulos en orden progresivo
-2. **Lee** el `readme.md` de cada módulo para entender la teoría
-3. **Examina** los archivos de ejemplo para ver la aplicación práctica
-4. **Experimenta** modificando el código en tu entorno local
+No necesitas instalar nada. Solo un navegador web y un editor de texto.
+
+1. **Clona** el repositorio:
+   ```bash
+   git clone https://github.com/juanmanuelruizm/frontend-an-introductory-course.git
+   ```
+2. **Navega** por los módulos en orden progresivo
+3. **Lee** el `readme.md` de cada módulo para entender la teoría
+4. **Abre** los archivos `.html` directamente en tu navegador (doble clic, o `Ctrl+O`)
+5. **Experimenta** modificando el código — con la extensión [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) de VS Code verás los cambios en tiempo real
 
 ---
 
