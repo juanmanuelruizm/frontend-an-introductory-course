@@ -36,11 +36,13 @@ Todo documento HTML debe tener esta estructura base:
 
 ```html
 <!DOCTYPE html>
-<html> 
-    <head>      
-        <title> Mi primer documento html </title>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mi primer documento HTML</title>
     </head>
-    <body>  
+    <body>
         <h1>Título</h1>
         <h2>Subtítulo 1</h2>
         <p>Petrer</p>
@@ -50,18 +52,22 @@ Todo documento HTML debe tener esta estructura base:
         <a href="hola.html">NO CLICKES AQUÍ!!!</a>
         <h3>Esto es una tabla:</h3>
         <table>
-            <tr>
-                <th>cabecera 1</th>
-                <th>cabecera 2</th>
-            </tr>
-            <tr>
-                <td>hola</td>
-                <td>adiós</td>
-            </tr>
-            <tr>
-                <td>adiós</td>
-                <td>hola</td>
-            </tr>
+            <thead>
+                <tr>
+                    <th>cabecera 1</th>
+                    <th>cabecera 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>hola</td>
+                    <td>adiós</td>
+                </tr>
+                <tr>
+                    <td>adiós</td>
+                    <td>hola</td>
+                </tr>
+            </tbody>
         </table>
     </body>
 </html>
